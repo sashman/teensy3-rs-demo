@@ -21,7 +21,7 @@ pub unsafe extern fn main() {
         alive();
 
         // If the serial write fails, we will halt (no more alive blinks)
-        send_waiting(count).unwrap();
+        // send_waiting(count).unwrap();
 
         match ser.try_read_byte() {
             Some(in_byte) => send_echo(in_byte),
