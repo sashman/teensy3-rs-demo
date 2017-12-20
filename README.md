@@ -62,6 +62,7 @@ pub unsafe fn alive() {
 * A somewhat current arm-none-eabi-gcc toolchain.
     * 4.9.3 seems to work with a slight linker hack
     * 6.x.x seems to work without hacks.
+* [teensy3-rs](https://github.com/sashman/teensy3-rs) checked out in the parent directory, see [dependencies](https://github.com/sashman/teensy3-rs-demo/blob/630e7d7191ff2b97109f56ae13234856f75121be/Cargo.toml#L6).
 
 # License
 
